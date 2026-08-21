@@ -1,2 +1,2 @@
 # linlinanimator.fun
-the host/code for my website.
+the open source host/code for my website.
