@@ -1,0 +1,306 @@
+<html>
+
+<head>
+  <title>Lin, the Animator</title>
+</head>
+
+<body style="background: url('pattbg/space.png'), repeat; animation: moveStar 50s linear infinite;">
+
+  <div style="background: url('pattbg/dot.png'), repeat;
+background-size: 1.7em 1.7em;
+width: 59.5em; height: 27.5em;
+position: relative; left: 8.5em; top: 10em;
+border: 0.5em solid #6FA962;
+border-radius: 1em;
+animation: moveDots 30s linear infinite;" class="main">
+    <img src="ui/radio.gif">
+    <img src="ui/welcome.gif"
+      style="width: 30em; position: absolute; left: 1em; top: -7.5em; border: 0.3em solid white;">
+    <img class="marsh" id="marsh" src="ui/marshthumbsup.png"
+      style="width:15em; position: absolute; left: 19.5em; top: 0.7em;">
+    <img class="fanyliz" id="fanyliz" src="ui/fany_liz.png"
+      style="width: 15em; position: absolute; left: 33.5em; top: 0.5em;">
+    <img class="linlin" id="linlin" src="ui/lw.png" style="width: 15em; position: absolute; left: 45.5em; top: 0.5em;">
+    <img class="note" src="ui/note.png" style="width: 8.5em; position: relative; left: -9.5em; top: 3.5em;">
+
+    <div style="background: url('pattbg/dark_dot.png'), repeat;
+background-size: 1.7em 1.7em;
+width: 59.5em; height: 45.5em;
+position: absolute; left: -0.5em; top: 26em;
+border: 0.5em solid #6FA962;
+border-radius: 1em;
+animation: moveDots 30s linear infinite;" class="others">
+      <a href="./gallery.html">
+        <img src="ui/gallery.gif"
+          style="position: absolute; top: 2em; left: 1em; width: 20em; border: 0.3em solid white">
+      </a>
+      <a href="./games.html">
+        img src='ui/games.gif' style="position: absolute; top: 6em; left: 1em; width: 20em; border: 0.3em solid white"
+      </a>
+    </div>
+
+    <div style="background-color: #6FA962; width: 59.5em; height: 2em; position: absolute; top: 25.5em;"></div>
+
+  </div>
+
+  <div style="background: url('pattbg/dark_dot.png'), repeat;
+background-size: 1.7em 1.7em;
+width: 45em; height: 45em;
+border: 0.5em solid #6FA962;
+border-radius: 1em;
+position: absolute; left: 71.5em; top: 20em;
+animation: moveDots 50s linear infinite;
+opacity: 0;" id="abtlin" class="abtlin">
+    <img src="ui/lin.gif" style="width: 26em">
+    <h1 class="text1">
+      age: 13<br>
+      --------------------------------------------------<br>
+      gender: he/him<br>
+      --------------------------------------------------<br>
+      personality: a little dumb, but not an idiot and is chill or happy most of the time and get either sad or angry
+      with bad things<br>
+      --------------------------------------------------<br>
+      height: 1 meter and 25 centimeters<br>
+      --------------------------------------------------<br>
+      he likes cheese, pizza, and blue and green and fears socks (don't ask)<br>
+      --------------------------------------------------<br>
+    </h1>
+
+    <style>
+      .text1 {
+        color: white;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 2px black;
+        font-size: 2.3em;
+        position: absolute;
+        left: 0em;
+        font-family: Arial, sans-serif;
+      }
+    </style>
+
+  </div>
+
+  <div style="background: url('pattbg/dark_dot.png'), repeat;
+background-size: 1.7em 1.7em;
+width: 45em; height: 45em;
+border: 0.5em solid #6FA962;
+border-radius: 1em;
+position: absolute;
+left: 71.4em; top: 20em;
+animation: moveDots 50s infinite;
+opacity: 0;" id="abtfanyliz" class="abtfanyliz">
+    <img src="ui/fany_liz_green_glow.gif" style="width: 26em">
+    <h1 class="text1">
+      age: 16<br>
+      --------------------------------------------------<br>
+      gender: she/her<br>
+      --------------------------------------------------<br>
+      personality: chill, but sometimes angry or tired, doesn't get sadly easy and is a bit smart<br>
+      --------------------------------------------------<br>
+      height: 1 meter and 37 centimeters<br>
+      --------------------------------------------------<br>
+      she likes noodles, coffee, color black, her home and bedroom<br>
+      --------------------------------------------------<br>
+    </h1>
+  </div>
+
+  <div style="background: url('pattbg/dark_dot.png'), repeat;
+background-size: 1.7em 1.7em;
+width: 45em; height: 45em;
+border: 0.5em solid #6FA962;
+border-radius: 1em;
+position: absolute;
+left: 71.4em; top: 20em;
+animation: moveDots 50s infinite;
+opacity: 0;" id="abtmarsh" class="abtmarsh">
+    <img src="ui/marshgg.gif" style="width: 26em">
+    <h1 class="text1">
+      age: 8<br>
+      --------------------------------------------------<br>
+      gender: he/him<br>
+      --------------------------------------------------<br>
+      personality: most of the time happy but is also dumb and can get sad easly and would definitely pass by a guy
+      getting murdered by 5 ppl and not notice it<br>
+      --------------------------------------------------<br>
+      height: 70 centimeters<br>
+      --------------------------------------------------<br>
+      he likes cookiez, cheese, chaos, his friends and FIR&#128293;!!!<br>
+      --------------------------------------------------<br>
+    </h1>
+  </div>
+
+  <style>
+    @keyframes moveDots {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: 1000px 1000px;
+      }
+    }
+
+    @keyframes moveStar {
+      from {
+        background-position: 0px 0px;
+      }
+
+      to {
+        background-position: 1000px 0pc;
+      }
+    }
+
+    .marsh {
+      width: 15em;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .marsh:hover {
+      content: url('ui/mtuo.png');
+      transform: scale(1.1);
+    }
+
+    .fanyliz {
+      width: 15em;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .fanyliz:hover {
+      content: url('ui/flo.png');
+      transform: scale(1.1);
+    }
+
+    .linlin {
+      width: 15em;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .linlin:hover {
+      content: url('ui/lwwo.png');
+      transform: scale(1.1);
+    }
+
+    .note {
+      width: 8.5em;
+      transition: 0.3s;
+      position: relative;
+      left: 0em;
+      top: 0em;
+    }
+
+    .note:hover {
+      transform: scale(1.2);
+    }
+
+    #abtmarsh {
+      transition: all 0.3s ease;
+      position: absolute;
+      left: 71.4em;
+      top: -40em;
+      opacity: 0;
+      width: 45em;
+      height: 45em;
+    }
+
+    #abtfanyliz {
+      transition: all 0.3s ease;
+      position: absolute;
+      left: 71.4em;
+      top: -40em;
+      opacity: 0;
+      width: 45em;
+      height: 45em;
+    }
+
+    #abtlin {
+      transition: all 0.3s ease;
+      position: absolute;
+      left: 70em;
+      top: -40em;
+      opacity: 0;
+      width: 45em;
+      height: 45em;
+    }
+
+    body {
+      cursor: url('ui/lwwo.png'), auto;
+    }
+  </style>
+
+  <script>
+    const linlin = document.getElementById('linlin');
+    const abtlin = document.getElementById('abtlin');
+
+    let aberto = false;
+
+    linlin.addEventListener('click', () => {
+      if (!aberto) {
+        abtlin.style.left = "71.4em";
+        abtlin.style.top = "10.5em";
+        abtlin.style.opacity = "1";
+        abtlin.style.width = "45em";
+        abtlin.style.height = "45em";
+        aberto = true;
+      } else {
+        abtlin.style.left = "71.4em";
+        abtlin.style.top = "20em";
+        abtlin.style.opacity = "0";
+        abtlin.style.width = "45em";
+        abtlin.style.height = "45em";
+        aberto = false;
+      }
+    });
+
+    const fanyliz = document.getElementById('fanyliz');
+    const abtfanyliz = document.getElementById('abtfanyliz');
+
+    let abertoFanyliz = false;
+
+    fanyliz.addEventListener('click', () => {
+      if (!abertoFanyliz) {
+        abtfanyliz.style.left = "71.4em";
+        abtfanyliz.style.top = "10.5em";
+        abtfanyliz.style.opacity = "1";
+        abtfanyliz.style.width = "45em";
+        abtfanyliz.style.height = "45em";
+        abertoFanyliz = true;
+      } else {
+        abtfanyliz.style.left = "71.4em";
+        abtfanyliz.style.top = "20em";
+        abtfanyliz.style.opacity = "0";
+        abtfanyliz.style.width = "45em";
+        abtfanyliz.style.height = "45em";
+        abertoFanyliz = false;
+      }
+    });
+
+    const marsh = document.getElementById('marsh');
+    const abtmarsh = document.getElementById('abtmarsh');
+
+    let abertomarsh = false;
+
+    marsh.addEventListener('click', () => {
+      if (!abertomarsh) {
+        abtmarsh.style.left = "71.4em";
+        abtmarsh.style.top = "10.5em";
+        abtmarsh.style.opacity = "1";
+        abtmarsh.style.width = "45em";
+        abtmarsh.style.height = "45em";
+        abertomarsh = true;
+      } else {
+        abtmarsh.style.left = "71.4em";
+        abtmarsh.style.top = "20em";
+        abtmarsh.style.opacity = "0";
+        abtmarsh.style.width = "45em";
+        abtmarsh.style.height = "45em";
+        abertomarsh = false;
+      }
+    });
+  </script>
+
+</body>
+
+</html>
