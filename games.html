@@ -1,0 +1,77 @@
+<DOCTYPE html>
+<html>
+
+<head>
+  <title>games</title>
+</head>
+
+<body class="website" style="background: url(pattbg/gdot.png), repeat;
+background-size: 1.7em 1.7em;
+animation: gdot 50s linear infinite;">
+
+
+
+  <div class="spikes" style="width: 155em; height: 15em;
+background: url('ui/spike.png') repeat-x;
+background-size: 5.5em;
+position: absolute;
+top: 50em;
+left: -1em;
+animation: spikes 50s linear infinite;">
+  </div>
+
+  <div class="spikes" style="width: 155em; height: 15em;
+background: url('ui/spike.png') repeat-x;
+background-size: 5.5em;
+position: absolute;
+top: -5em;
+left: -1em;
+animation: spikes 50s linear infinite;
+rotate: 180deg;">
+  </div>
+
+  <div>
+    <a href="./index.html">
+      <img src="ui/goback.gif" style="width: 25em; border: 0.5em solid white;">
+    </a>
+  </div>
+
+  <style>
+    @keyframes gdot {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: 1000px 1000px;
+      }
+    }
+
+    .website {
+      overflow: hidden;
+    }
+
+    @keyframes spikes {
+      from {
+        background-position: 0 0;
+      }
+
+      to {
+        background-position: 5000px 0px;
+      }
+    }
+
+    @keyframes spikes2 {
+      from {
+        background-position: -5em 0;
+      }
+
+      to {
+        background-position: 0px 0px;
+      }
+    }
+  </style>
+
+</body>
+
+</html>
