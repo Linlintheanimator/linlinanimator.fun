@@ -5,6 +5,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Milky Cream";
+  src: url("fonts/Milky Cream.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .font-pixelta {
   font-family: "Pixelta", sans-serif;
+}
+
+.font-milky-cream {
+  font-family: "Milky Cream", sans-serif;
 }
