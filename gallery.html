@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+      <title>the Linlin site:3</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 10px;
+        
+        background-image: url(bgs/space.png);
+        background-repeat: repeat;
+        background-position: center;
+        background-size: 18rem auto;
+        animation: bgScroll 30s linear infinite;
+      }
+      
+      aside {
+        width: 300px;
+        height: 400px;
+        /* background-image: url(bgs/dark_dot.png); */
+        background-size: 300px;
+        position: absolute;
+      }
+
+      .grid {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 5px;
+        flex-wrap: wrap;
+      }
+
+      main {
+        max-width: 850px;
+        height: auto;
+        background-color: #b8e0b1;
+        border: 8px ridge #121411;
+        /*outline: 2px solid #e1ffde;*/
+        color: #3d3038;
+
+        margin-left: 3.5px;
+        padding: 10px;
+      } 
+
+      main h1 {
+        font-size: 3.5rem;
+        -webkit-text-stroke: 8xp #e1ffde;
+      }
+
+      main p {
+        font-family: "Milky Cream", sans serif;
+        font-size: 1.5rem;
+        background-color: #d6ffcf;
+        border: 1px solid #6a7d64;
+        outline: 0.5px solid #e1ffde;
+      }
+
+      .img-size-1 {
+        width: 21rem;
+        height: auto;
+      }
+    </style>
+
+    <style>
+      @keyframes bgScroll {
+        0% {
+          background-position: 0px 0px
+        }
+        100% {
+          background-position: 808px 808px
+        }
+      }
+    </style>
+    
+  </head>
+
+  <body>
+    <aside></aside>
+    
+    <div class="grid">
+      <main>
+        <a href="/index.html"><img src="gifs/gallery.gif"></a>
+        <p>My art, some behind the scenes and others!</p>
+      </main>
+
+    </div>
+      
+    <br>
+
+    <div class="grid">
+      <main>
+        COMING SOON
+      </main>
+    </div>
+    
+  </body>
+</html>
